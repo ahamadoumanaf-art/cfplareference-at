@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contactez La Référence à Atakpamé, au Togo.">
+	<title>Contact | La Référence</title>
+	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header class="topbar">
+        <div class="container">
+            <div class="brand">
+                <img src="images/logo.jpeg" alt="Logo CFP La Reference">
+                <span class="brand-text">LA REFERENCE</span>
+            </div>
+
+            <div class="header-contact">
+                <div class="contact-item">
+                    <img src="icons/location.png" alt="Adresse">
+                    <span><strong>Adresse:</strong> Agbonou Campement, ATAKPAME - TOGO</span>
+                </div>
+                <div class="contact-item">
+                    <img src="icons/email.png" alt="Email">
+                    <span><strong>Email:</strong> cfplareference@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <img src="icons/telephone-handle-silhouette.png" alt="Téléphone">
+                    <span><strong>Tél:</strong> +228 91769921</span>
+                </div>
+            </div>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="navbar" aria-label="Menu principal">
+        <div class="container">
+            <ul class="nav-list" id="main-nav">
+                <li class="nav-item"><a href="index.html">Accueil</a></li>
+                <li class="nav-item"><a href="about.html">A propos</a></li>
+                <li class="nav-item"><a href="formation.html">Formations</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+	<main>
+		<section class="hero">
+			<div class="container hero-content">
+				<p class="eyebrow">Nous trouver au Togo</p>
+				<h1>Parlons de votre prochain projet.</h1>
+				<p>Retrouvez La Référence à Atakpamé, au coeur de la région des Plateaux. Notre équipe vous accueille pour répondre à vos questions sur les formations.</p>
+			</div>
+		</section>
+
+		<section class="contact-section">
+			<div class="container contact-grid">
+				<div class="contact-details">
+					<p class="eyebrow eyebrow-dark">Coordonnées</p>
+					<h2>La Référence, Atakpamé</h2>
+					<p class="intro">Une question sur une formation ou une inscription ? Écrivez-nous ou rendez-vous directement dans notre ville.</p>
+
+					<div class="detail-list">
+						<article class="detail-item">
+							<span class="detail-icon" aria-hidden="true">⌖</span>
+							<div>
+								<h3>Localisation</h3>
+								<p>Atakpamé, région des Plateaux<br>Togo</p>
+							</div>
+						</article>
+						<article class="detail-item">
+							<span class="detail-icon" aria-hidden="true">◎</span>
+							<div>
+								<h3>Coordonnées GPS</h3>
+								<p>Latitude : 7.53° N<br>Longitude : 1.12° E</p>
+							</div>
+						</article>
+						<article class="detail-item">
+							<span class="detail-icon" aria-hidden="true">↗</span>
+							<div>
+								<h3>Itinéraire</h3>
+								<a class="map-link" href="https://www.openstreetmap.org/?mlat=7.53&mlon=1.12#map=13/7.53/1.12" target="_blank" rel="noopener noreferrer">Ouvrir dans OpenStreetMap</a>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<div class="map-frame">
+					<iframe title="Carte de localisation d'Atakpamé" src="https://www.openstreetmap.org/export/embed.html?bbox=1.02%2C7.46%2C1.22%2C7.60&amp;layer=mapnik&amp;marker=7.53%2C1.12" loading="lazy"></iframe>
+					<p>Atakpamé · 7.53° N, 1.12° E</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="formulaire" class="form-section">
+			<div class="container form-grid">
+				<div class="form-intro">
+					<p class="eyebrow eyebrow-dark">Écrivez-nous</p>
+					<h2>Une question ?</h2>
+					<p>Remplissez le formulaire et votre message sera préparé directement dans votre messagerie à destination de cfplareference@gmail.com.</p>
+				</div>
+
+				<form class="contact-form" action="mailto:cfplareference@gmail.com" method="post" enctype="text/plain">
+					<div class="form-row">
+						<label for="name">Nom complet</label>
+						<input type="text" id="name" name="Nom" autocomplete="name" required>
+					</div>
+					<div class="form-row">
+						<label for="email">Adresse email</label>
+						<input type="email" id="email" name="Email" autocomplete="email" required>
+					</div>
+					<div class="form-row">
+						<label for="subject">Sujet</label>
+						<input type="text" id="subject" name="Sujet" required>
+					</div>
+					<div class="form-row">
+						<label for="message">Votre message</label>
+						<textarea id="message" name="Message" rows="6" required></textarea>
+					</div>
+					<button class="button form-button" type="submit">Envoyer le message <span aria-hidden="true">→</span></button>
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+<footer>
+      <div class="container">© 2025 La Référence - Centre de formation professionnelle</div>
+    </footer>
+		
+	<script src="menu.js"></script>
+</body>
+</html>
