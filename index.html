@@ -45,68 +45,47 @@
             </ul>
         </div>
     </nav>
-    <label="Galerie du CFP La Reference">
-        <div class="photo-banner-heading">
-            <span>La vie au CFP La Reference</span>
-            <strong>Votre rêve, nous y croyons</strong>
-        </div>
-        <div class="hero-photo-strip">
-            <div class="hero-photo-track">
-                <div class="hero-photo-group">
-                    <img src="images/devanture.jpeg" alt="Devanture du CFP La Reference">
-                    <img src="images/etudiants debouts.jpeg" alt="Étudiants du CFP La Reference">
-                    <img src="images/salle de cour.png" alt="Salle de cours du CFP La Reference">
-                </div>
-                <div class="hero-photo-group" aria-hidden="true">
-                    <img src="images/devanture.jpeg" alt="">
-                    <img src="images/etudiants debouts.jpeg" alt="">
-                    <img src="images/salle de cour.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
     <main>
         <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>Formez votre avenir au CFP La Reference</h1>
-                    <p>
-                        Le Centre de Formation Professionnelle La Reference accompagne les jeunes,
-                        professionnels et passionnés dans l’acquisition de compétences utiles,
-                        pratiques et adaptées au marché du travail.
-                    </p>
+            <div class="hero-slider" aria-label="Présentation du CFP La Reference" aria-roledescription="carrousel">
+                <div class="hero-slides">
+                    <article class="hero-slide is-active" data-slide="0">
+                        <img src="images/slide 1.png" alt="Apprenants du CFP La Reference">
+                        <div class="hero-slide-content container">
+                            <span class="hero-kicker">CFP La Reference</span>
+                            <h1>Preparez votre avenir au CFP La Reference</h1>
+                            <a href="about.html" class="btn btn-primary">Voir les détails</a>
+                        </div>
+                    </article>
 
-                    <div class="hero-actions">
-                        <a href="formation.html" class="btn btn-primary">Découvrir nos formations</a>
-                        <a href="contact.html" class="btn btn-secondary">Nous contacter</a>
-                    </div>
+                    <article class="hero-slide" data-slide="1" aria-hidden="true">
+                        <img src="images/slide 2.jpeg" alt="Formation professionnelle au CFP La Reference">
+                        <div class="hero-slide-content container">
+                            <span class="hero-kicker">Professional development</span>
+                            <h2>Formations professionnelles de qualité</h2>
+                            <a href="formation.html" class="btn btn-primary">Découvrez nos programmes de formation</a>
+                        </div>
+                    </article>
+
+                    <article class="hero-slide" data-slide="2" aria-hidden="true">
+                        <img src="images/slide 3.jpeg" alt="Accompagnement et équipement professionnel du CFP La Reference">
+                        <div class="hero-slide-content container">
+                            <span class="hero-kicker">un environnement d' apprentissage de qualité</span>
+                            <h2>Accompagnement et équipements professionnel pour une formation de qualité.</h2>
+                        </div>
+                    </article>
                 </div>
 
-                <div class="hero-card">
-                    <h3>Pourquoi nous choisir ?</h3>
-                    <p>Des cours concrets, une pédagogie adaptée et un encadrement de qualité.</p>
-
-                    <div class="hero-stats">
-                        <div class="stat-box">
-                            <strong>250+</strong>
-                            <span>Apprenants</span>
-                        </div>
-                        <div class="stat-box">
-                            <strong>12</strong>
-                            <span>Formations</span>
-                        </div>
-                        <div class="stat-box">
-                            <strong>95%</strong>
-                            <span>Satisfaction</span>
-                        </div>
-                        <div class="stat-box">
-                            <strong>6</strong>
-                            <span>Années d'expérience</span>
-                        </div>
+                <div class="hero-slider-controls container">
+                    <button class="hero-slider-button hero-slider-prev" type="button" aria-label="Previous slide">&#8592;</button>
+                    <div class="hero-slider-dots" aria-label="Choose a slide">
+                        <button class="hero-slider-dot is-active" type="button" aria-label="Show slide 1" aria-current="true" data-slide-to="0"></button>
+                        <button class="hero-slider-dot" type="button" aria-label="Show slide 2" data-slide-to="1"></button>
+                        <button class="hero-slider-dot" type="button" aria-label="Show slide 3" data-slide-to="2"></button>
                     </div>
+                    <button class="hero-slider-button hero-slider-next" type="button" aria-label="Next slide">&#8594;</button>
                 </div>
             </div>
-
         </section>
 
         <section class="section">
@@ -210,7 +189,7 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/etudiants debouts.jpeg" alt="Apprenants de La Référence">
+                        <img src="images/Management & Commerce.jpg" alt="Apprenants de La Référence">
                         <div class="program-body">
                             <span class="tag">Commerce</span>
                             <h3>Management & Commerce</h3>
@@ -223,7 +202,7 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/devanture.jpeg" alt="Bâtiment de La Référence à Atakpamé">
+                        <img src="images/Entreprise et projet.jpg" alt="Entreprise et projet.jpg">
                         <div class="program-body">
                             <span class="tag">Entrepreneuriat</span>
                             <h3>Entrepreneuriat & Projets</h3>
@@ -236,10 +215,10 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/salle de cour.png" alt="Formation d'aide-soignant">
+                        <img src="images/aide soignante.jpg" alt="Formation d'aide-soignant">
                         <div class="program-body">
                             <span class="tag">Santé</span>
-                            <h3>Aide-soignant</h3>
+                            <h3>Aide-soignante</h3>
                             <p>Apprenez les gestes essentiels pour accompagner les patients et participer aux soins.</p>
                             <div class="program-footer">
                                 <span>9 mois + 3 mois de stage</span>
@@ -249,7 +228,7 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/etudiants debouts.jpeg" alt="Formation d'auxiliaire en pharmacie">
+                        <img src="images/auxilliaire en vente  pharmacie.jpg" alt="Formation d'auxiliaire en pharmacie">
                         <div class="program-body">
                             <span class="tag">Santé</span>
                             <h3>Auxiliaire en pharmacie</h3>
@@ -262,10 +241,10 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/devanture.jpeg" alt="Formation en délégation médicale">
+                        <img src="images/délégué médical.png" alt="Formation en délégation médicale">
                         <div class="program-body">
                             <span class="tag">Santé</span>
-                            <h3>Délégation médicale</h3>
+                            <h3>Délégué médicale</h3>
                             <p>Formez-vous à la présentation des produits de santé et à la relation avec les professionnels.</p>
                             <div class="program-footer">
                                 <span>9 mois + 3 mois de stage</span>
@@ -275,7 +254,7 @@
                     </article>
 
                     <article class="program-card">
-                        <img src="images/salle de cour.png" alt="Formation d'assistant en laboratoire">
+                        <img src="images/assistant en labolatoire.jpg" alt="Formation d'assistant en laboratoire">
                         <div class="program-body">
                             <span class="tag">Santé</span>
                             <h3>Assistant en laboratoire</h3>
@@ -299,15 +278,15 @@
 
                 <div class="metrics-grid">
                     <div class="metric-card">
-                        <strong>12+</strong>
+                        <strong class="metric-value" data-target="12" data-suffix="+">0+</strong>
                         <p>Programmes de formation disponibles</p>
                     </div>
                     <div class="metric-card">
-                        <strong>250+</strong>
+                        <strong class="metric-value" data-target="250" data-suffix="+">0+</strong>
                         <p>Apprenants formés et accompagnés</p>
                     </div>
                     <div class="metric-card">
-                        <strong>95%</strong>
+                        <strong class="metric-value" data-target="95" data-suffix="%">0%</strong>
                         <p>Taux de satisfaction des apprenants</p>
                     </div>
                 </div>
@@ -366,6 +345,26 @@
                             </div>
                         </div>
                     </article>
+                </div>
+            </div>
+        </section>
+        <section class="photo-banner" aria-label="Galerie du CFP La Reference">
+            <div class="photo-banner-heading">
+                <span>La vie au CFP La Reference</span>
+                <strong>Votre rêve, nous y croyons</strong>
+            </div>
+            <div class="hero-photo-strip">
+                <div class="hero-photo-track">
+                    <div class="hero-photo-group">
+                        <img src="images/devanture.jpeg" alt="Devanture du CFP La Reference">
+                        <img src="images/etudiants debouts.jpeg" alt="Étudiants du CFP La Reference">
+                        <img src="images/salle de cour.png" alt="Salle de cours du CFP La Reference">
+                    </div>
+                    <div class="hero-photo-group" aria-hidden="true">
+                        <img src="images/devanture.jpeg" alt="">
+                        <img src="images/etudiants debouts.jpeg" alt="">
+                        <img src="images/salle de cour.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
